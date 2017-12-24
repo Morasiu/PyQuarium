@@ -7,5 +7,5 @@ Project inspired by ASCIIqarium. Check this awsome project
 [ASCIIqarium](http://robobunny.com/projects/asciiquarium/html/)
 
 Created by Morasiu.
-I love feedback, so send me some ideas, point my mistakes.
-morasiu2@gmail.com
+I love feedback, so send me some ideas, point my mistakes. <br>
+email: morasiu2@gmail.com
