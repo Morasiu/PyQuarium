@@ -1,6 +1,4 @@
 class Fish:
-  small_fish ='''
-  __ 
+  small_fish ='''  __ 
 \/ o\\
-/\\__/
-'''
+/\\__/'''
