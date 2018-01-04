@@ -1,3 +1,5 @@
+#! /usr/bin/env python3.6
+#coding=utf-8
 import random
 import math
 import time
@@ -16,13 +18,13 @@ class ASCIIQuarium:
     centre = (screen.width // 2, screen.height // 2)
     fish = Fish()
     effects = []
-    colors = [Screen.COLOUR_RED, Screen.COLOUR_BLUE, Screen.COLOUR_GREEN, Screen.COLOUR_WHITE, Screen.COLOUR_YELLOW]
-    for _ in range(0,5):
+    colors = [Screen.COLOUR_RED, Screen.COLOUR_CYAN, Screen.COLOUR_MAGENTA, Screen.COLOUR_GREEN, Screen.COLOUR_WHITE, Screen.COLOUR_YELLOW]
+    for _ in range(0,50):
       path = Path()
       # Spawn object on scene. Or teleport it to that cords.
-      path.jump_to(0, random.randint(0, screen.height))
+      path.jump_to(0, random.randint(5, screen.height))
       # Move object to that cords in stright line. 3rd argument is how many steps it takes to complete this path.
-      path.move_straight_to(screen.width, random.randint(0, screen.height), random.randint(100,200))
+      path.move_straight_to(screen.width, random.randint(5, screen.height), random.randint(100,200))
       # Create sprite. Sprite is an effect, which can follow path.
       sprite = Sprite(
           screen,
