@@ -1,4 +1,4 @@
-# ASCIIQuarium
+# PyQuarium
 It is aquarium ASCII animation with random events written in Python. <br>
 **Your private virtual aquarium in your terminal**
 [Screenshot1](docs/Screenshot1.png)
