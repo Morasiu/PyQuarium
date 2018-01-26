@@ -1,5 +1,6 @@
 #! /usr/bin/env python3.6
 #coding=utf-8
+
 import random
 import math
 import time
@@ -31,7 +32,7 @@ class ASCIIQuarium:
           renderer_dict={
               "default": StaticRenderer(images=[fish.small_fish])
           },
-          path=path,
+          path=path,#)
           colour=random.choice(colors))
       # Add effect to effect list. Effect is basically anything that will be displayed on scene.
       effects.append(sprite)
